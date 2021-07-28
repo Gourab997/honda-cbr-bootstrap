@@ -20,21 +20,64 @@
 </head>
 
 <body>
-    <header class="bg-secondary   ">
+    <header style="background-color: #264653;">
+        <nav class="navbar navbar-expand-lg navbar-light mb-5 ">
+            <div class="container">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+
         <!-- Top banner -->
         <section class=" ">
 
-            <div class="container d-flex align-items-center justify-content-around  ">
+            <div class="container d-md-flex  align-items-center justify-content-around  ">
                 <div class="my-5">
                     <p class="text-white fw-lighter">Computer-controlled digital transistorized with electronic advance
                     </p>
-                    <h1 class="text-white fw-bolder">Honda CBR 300R</h1>
-                    <p class="text-wrap text-white w-100  fw-lighter">The CBR300R was introduced by Honda as the
+                    <h1 class="text-white fs-1 fw-bolder ">Honda CBR 300R</h1>
+                    <p class="text-wrap text-white w-75 my-3 fw-lighter">The CBR300R was introduced by Honda as the
                         successor to the 2-stroke NSR150. It
                         has been sold in
                         Thai
                         market starting from 2002 and have been exported to many Asian countries and South Africa.</p>
-                    <button class="btn btn-warning text-white" data-bs-toggle="modal" data-bs-target="#purchaseModal">
+                    <button class=" btn honda-btn text-white" data-bs-toggle="modal" data-bs-target="#purchaseModal">
                         Purchase</button>
                     <!-- Modal -->
                     <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="purchaseModalLabel"
@@ -61,7 +104,7 @@
 
                 </div>
                 <div class="my-5">
-                    <img src="./images/header-bike.png" alt="">
+                    <img class="mw-100" src="./images/header-bike.png" alt="">
                 </div>
 
             </div>
@@ -76,19 +119,19 @@
 
         <section class="my-5">
             <div class="container">
-                <h1 class="text-center">Fetured Bikes 2021</h1>
-                <p class="text-center"> Best Bike collection</p>
+                <h1 class="text-center fw-bolder">Fetured Bikes 2021</h1>
+                <p class="text-center fw-bold" style="color: #E76F51 ;"> Best Bike collection</p>
             </div>
             <div class="container my-5">
-                <div class="row">
-                    <div class="col">
-                        <img class="bike-gray" src="./images/feature-bike.jpg" width="288" height="243" alt="">
+                <div class="row   align-content-center justify-content-center ms-5 ">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img class="bike-gray mb-sm-5" src="./images/feature-bike.jpg" width="288" height="243" alt="">
                     </div>
-                    <div class="col">
-                        <img src="./images/feature-bike.jpg" width="288" height="243" alt="">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img class="mb-sm-5" src="./images/feature-bike.jpg" width="288" height="243" alt="">
                     </div>
-                    <div class="col">
-                        <img class="bike-gray" src="./images/feature-bike.jpg" width="288" height="243" alt="">
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <img class="bike-gray mb-sm-5" src="./images/feature-bike.jpg" width="288" height="243" alt="">
                     </div>
                 </div>
             </div>
@@ -99,24 +142,27 @@
         <section class="my-5">
 
             <div class="container">
-                <h1 class="text-center fw-bolder"> Happy <span>Clients says</span> </h1>
+                <h1 class="text-center fw-bolder"> Happy <span style="color: #E76F51 ;">Clients says</span> </h1>
 
                 <!-- review -->
                 <div class="container row row-cols-1 row-cols-md-3 g-4 my-5">
+
+
                     <div class="col">
                         <div class="card h-100 d-flex align-items-center pt-3">
                             <img src="./images/user-1.png" width="149" height="149" class="text-center" alt="...">
                             <div class="card-body">
 
-                                <p class="card-text text-center">Slate helps you see how
+                                <p class="card-text text-center fw-light">"Slate helps you see how
                                     many more days you need
                                     to work to reach your financial
-                                    goal for the month and year.</p>
+                                    goal for the month and year".</p>
 
-                                <p class="text-center"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                        class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <p class="text-center"><i class="fas fa-star filled"></i> <i
+                                        class="fas fa-star filled"></i> <i class="fas fa-star filled"></i> <i
+                                        class="fas fa-star filled"></i> <i class="far fa-star filled"></i>
                                 </p>
-                                <p class="text-center"> Regina Miles</p>
+                                <p class="text-center fw-bold" style="color: #23A6F0;"> Regina Miles</p>
                                 <p class="text-center"> Bankar</p>
                             </div>
 
@@ -127,15 +173,16 @@
                             <img src="./images/user-2.png" width="149" height="149" class="text-center" alt="...">
                             <div class="card-body">
 
-                                <p class="card-text text-center">Slate helps you see how
+                                <p class="card-text text-center fw-light">"Slate helps you see how
                                     many more days you need
                                     to work to reach your financial
-                                    goal for the month and year.</p>
+                                    goal for the month and year".</p>
 
-                                <p class="text-center"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                        class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <p class="text-center"><i class="fas fa-star filled"></i> <i
+                                        class="fas fa-star filled"></i> <i class="fas fa-star filled"></i> <i
+                                        class="fas fa-star filled"></i> <i class="far fa-star filled"></i>
                                 </p>
-                                <p class="text-center"> Regina Miles</p>
+                                <p class="text-center fw-bold" style="color: #23A6F0;"> Regina Miles</p>
                                 <p class="text-center"> Bankar</p>
                             </div>
 
@@ -147,15 +194,16 @@
                                 alt="...">
                             <div class="card-body">
 
-                                <p class="card-text text-center">Slate helps you see how
+                                <p class="card-text text-center fw-light">"Slate helps you see how
                                     many more days you need
                                     to work to reach your financial
-                                    goal for the month and year.</p>
+                                    goal for the month and year."</p>
 
-                                <p class="text-center"><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
-                                        class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i>
+                                <p class="text-center"><i class="fas fa-star filled"></i> <i
+                                        class="fas fa-star filled"></i> <i class="fas fa-star filled"></i> <i
+                                        class="fas fa-star filled"></i> <i class="far fa-star filled"></i>
                                 </p>
-                                <p class="text-center"> Regina Miles</p>
+                                <p class="text-center fw-bold" style="color: #23A6F0;"> Regina Miles</p>
                                 <p class="text-center"> Bankar</p>
                             </div>
 
@@ -173,23 +221,24 @@
 
         <!-- FaQ -->
 
-        <section class="my-5">
+        <section class="my-5 mt-5">
             <div class="mt-5">
-                <h1 class="text-center my-5"> Frequently Asked <span>Questions</span> </h1>
+                <h1 class=" fs-1 text-center my-5 fw-bolder overflow-auto "> Frequently Asked <span
+                        style="color: #E76F51; " class="text-wrap">Questions</span> </h1>
             </div>
 
-            <div class="d-flex container align-content-around ">
+            <div class="container d-md-flex  ">
                 <div>
-                    <img src="./images/faq.png" width="431.2" height="423.5" alt="">
+                    <img src="./images/faq.png" class="mw-100"  alt="">
                 </div>
 
 
 
-                <div class="container mt-5 ms-5">
+                <div class="container mt-5 ms-lg-5 ms-sm-0 ">
                     <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
+                        <div class="accordion-item ">
                             <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button bg-white " type="button" data-bs-toggle="collapse"
+                                <button class="accordion-button bg-white  " type="button" data-bs-toggle="collapse"
                                     data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
                                     aria-controls="panelsStayOpen-collapseOne">
                                     What are the most important things I should
@@ -205,11 +254,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item ">
+                        <div class="accordion-item  ">
                             <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button mt-3 border-top collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseTwo">
+                                <button class="accordion-button mt-3 border-top collapsed bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                                     How can I tell if my helmet is old and I need a
                                     new one?
                                 </button>
@@ -224,11 +273,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item ">
                             <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button mt-3 border-top collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseThree">
+                                <button class="accordion-button mt-3 border-top collapsed bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                                     My bike has been in storage is it safe to ride?
                                 </button>
                             </h2>
@@ -241,11 +290,11 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="accordion-item">
+                        <div class="accordion-item ">
                             <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                                <button class="accordion-button mt-3 border-top collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseFour">
+                                <button class="accordion-button mt-3 border-top collapsed bg-white" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                    aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
                                     What rules should I follow when riding my bike?
                                 </button>
                             </h2>
@@ -258,14 +307,14 @@
                                 </div>
                             </div>
                         </div>
-                     
+
                     </div>
                 </div>
             </div>
         </section>
 
-      
-        
+
+
 
 
     </main>
