@@ -10,6 +10,17 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+.honda-background {
+    background-color:  #264653;;
+}
+
+.honda-orange{
+    background-color: #E76F51;
+}
+.honda-orange-color{
+    color: #E76F51;
+}
+
 .text-bolds {
     font-size: 88px;
 }
