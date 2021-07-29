@@ -1,19 +1,87 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
     padding: 0;
     margin: 0;
 }
-.honda-btn{
-    background-color: #E76F51 ;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-bolds {
+    font-size: 88px;
+}
+
+.honda-btn {
+    background-color: #E76F51;
     margin: 1px;
-    padding:5px 30px;
+    padding: 5px 30px;
 }
 
 .bike-gray {
     filter: grayscale(100%);
-  }
+}
 
-  .filled{
-     color: #E76F51;
-  }
+.filled {
+    color: #E76F51;
+    ;
+}
 
-  
+
+.list {
+    list-style: none;
+
+
+}
+
+.honda-new {
+    margin-left: -50%;
+}
+
+
+.contact {
+    background: linear-gradient(345.88deg, #E76F51 47.7%, #264653 47.71%);
+
+}
+
+
+
+
+
+.contact-input input {
+    border: none;
+    outline: none;
+
+
+    border-radius: 15px;
+    background-color: rgb(245, 213, 182);
+}
+
+.contact-input textarea {
+    border: none;
+    outline: none;
+
+
+    border-radius: 15px;
+    background-color: rgb(245, 213, 182);
+}
+
+.contact-input a {
+    font-size: 20px;
+
+    border-radius: 25px;
+    background-color: #E76F51;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+
+.footer-button{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 12px;
+}
